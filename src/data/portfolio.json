@@ -1,146 +1,151 @@
-
 {
-  "header": {
-    "name": "John Doe",
-    "title": "Lead Software Engineer",
-    "tagline": "Building scalable, enterprise solutions with modern technologies",
-    "description": "Full-Stack developer specializing in Java, ReactJS, Docker, and Microservices architecture. Passionate about creating efficient, scalable and maintainable software solutions for enterprise problems.",
-    "image": "https://images.unsplash.com/photo-1493397212122-2b85dda8106b"
-  },
-  "social": {
-    "email": "john.doe@example.com",
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "github": "https://github.com/johndoe",
-    "blog": "https://johndoe.blog"
-  },
-  "skills": [
-    {
-      "category": "Backend",
-      "items": ["Java", "Spring Boot", "Microservices", "Node.js", "REST APIs", "GraphQL"]
-    },
-    {
-      "category": "Frontend",
-      "items": ["ReactJS", "TypeScript", "JavaScript", "HTML/CSS", "Redux", "Tailwind CSS"]
-    },
-    {
-      "category": "DevOps",
-      "items": ["Docker", "Kubernetes", "CI/CD", "AWS", "Azure", "Git"]
-    },
-    {
-      "category": "Databases",
-      "items": ["SQL", "NoSQL", "MongoDB", "PostgreSQL", "Redis", "Elasticsearch"]
-    },
-    {
-      "category": "Other",
-      "items": ["Agile/Scrum", "System Design", "Performance Optimization", "Security", "Testing"]
-    }
-  ],
-  "experience": [
-    {
-      "role": "Lead Software Engineer",
-      "company": "OpenText",
-      "duration": "Jan 2020 - Present",
-      "description": "Leading a team of 8 developers creating enterprise content management solutions",
-      "responsibilities": [
-        "Architected and implemented microservices-based platform that improved scalability by 200%",
-        "Led migration from monolith to microservices using Spring Boot and Docker",
-        "Designed and implemented CI/CD pipelines reducing deployment time by 75%",
-        "Mentored junior developers and conducted code reviews to ensure quality standards"
-      ]
-    },
-    {
-      "role": "Senior Software Developer",
-      "company": "Tech Innovations Inc.",
-      "duration": "Mar 2017 - Dec 2019",
-      "description": "Developed full-stack applications for finance and healthcare industries",
-      "responsibilities": [
-        "Built real-time data processing system using Java and Kafka handling 10M+ events daily",
-        "Developed responsive frontend using React and Redux improving user engagement by 30%",
-        "Implemented automated testing strategies increasing code coverage to 85%",
-        "Optimized database queries reducing response times by 60%"
-      ]
-    },
-    {
-      "role": "Software Developer",
-      "company": "Digital Solutions Ltd",
-      "duration": "Jun 2014 - Feb 2017",
-      "description": "Worked on various web and mobile applications",
-      "responsibilities": [
-        "Developed RESTful APIs using Spring Framework for mobile applications",
-        "Created frontend interfaces with React for customer-facing applications",
-        "Participated in Agile development process with bi-weekly sprints",
-        "Integrated third-party services and APIs into existing applications"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "Enterprise Content Management System",
-      "description": "A scalable system for managing enterprise documents and workflows with advanced search capabilities",
-      "technologies": ["Java", "Spring Boot", "React", "Elasticsearch", "Docker"],
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      "link": "https://github.com/johndoe/ecms"
-    },
-    {
-      "title": "Financial Data Analytics Platform",
-      "description": "Real-time analytics platform processing millions of financial transactions with visualizations and alerts",
-      "technologies": ["Java", "Apache Kafka", "React", "D3.js", "AWS"],
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-      "link": "https://github.com/johndoe/fdap"
-    },
-    {
-      "title": "Healthcare Patient Portal",
-      "description": "Secure patient portal allowing users to access medical records, schedule appointments, and communicate with providers",
-      "technologies": ["React", "Node.js", "MongoDB", "Express", "OAuth"],
-      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      "link": "https://github.com/johndoe/patient-portal"
-    },
-    {
-      "title": "DevOps Automation Suite",
-      "description": "Toolkit for automating deployment pipelines and infrastructure management across cloud platforms",
-      "technologies": ["Docker", "Kubernetes", "Terraform", "Jenkins", "Python"],
-      "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-      "link": "https://github.com/johndoe/devops-suite"
-    }
-  ],
-  "achievements": [
-    {
-      "title": "Certified Ethical Hacker (CEH)",
-      "issuer": "EC-Council",
-      "date": "2022",
-      "description": "Certification demonstrating expertise in identifying vulnerabilities and security risks"
-    },
-    {
-      "title": "Certified Scrum Master (CSM)",
-      "issuer": "Scrum Alliance",
-      "date": "2020",
-      "description": "Professional certification in Agile methodologies and Scrum framework"
-    },
-    {
-      "title": "Docker Certified Expert",
-      "issuer": "Docker Inc.",
-      "date": "2019",
-      "description": "Advanced certification in containerization and Docker technologies"
-    },
-    {
-      "title": "Excellence Award",
-      "issuer": "OpenText",
-      "date": "2021",
-      "description": "Recognized for exceptional contributions to the company's flagship product"
-    }
-  ],
-  "youtube": [
-    {
-      "name": "Tech Talks with John",
-      "description": "Weekly discussions on latest technology trends and best practices in software development",
-      "url": "https://youtube.com/c/techtalksjohn",
-      "thumbnail": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-    },
-    {
-      "name": "Code Craftsman",
-      "description": "Tutorials and coding sessions focused on Java, Spring Boot, and architectural patterns",
-      "url": "https://youtube.com/c/codecraftsman",
-      "thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
-    }
-  ]
+	"header": {
+		"name": "Anu Shibin Joseph Raj",
+		"title": "Lead Software Engineer",
+		"tagline": "Building scalable, enterprise solutions with modern technologies",
+		"description": "Full-Stack developer specializing in Java, ReactJS, Docker, and Microservices architecture. Passionate about creating efficient, scalable and maintainable software solutions for enterprise problems.",
+		"image": "https://images.unsplash.com/photo-1493397212122-2b85dda8106b"
+	},
+	"social": {
+		"email": "anushibin007@gmail.com",
+		"linkedin": "https://linkedin.com/in/anushibinj",
+		"github": "https://github.com/anushibin007",
+		"blog": "https://anushibin.wordpress.com/"
+	},
+	"skills": [
+		{
+			"category": "Backend",
+			"items": ["Java", "Spring Boot", "Microservices", "REST APIs"]
+		},
+		{
+			"category": "Frontend",
+			"items": ["ReactJS", "JavaScript", "HTML/CSS", "Tailwind CSS"]
+		},
+		{
+			"category": "DevOps",
+			"items": ["Docker", "Kubernetes", "CI/CD", "AWS", "Azure", "Git", "GCP", "Terraform"]
+		},
+		{
+			"category": "Databases",
+			"items": ["MongoDB", "Redis", "PostgreSQL", "Oracle", "Microsoft SQL Server", "IBM DB2"]
+		},
+		{
+			"category": "Other",
+			"items": [
+				"Agile/Scrum",
+				"System Design",
+				"Performance Optimization",
+				"Security",
+				"Testing"
+			]
+		}
+	],
+	"experience": [
+		{
+			"role": "Lead Software Engineer",
+			"company": "OpenText",
+			"duration": "Jan 2020 - Present",
+			"description": "Leading a team of 8 developers creating enterprise content management solutions",
+			"responsibilities": [
+				"Architected and implemented microservices-based platform that improved scalability by 200%",
+				"Led migration from monolith to microservices using Spring Boot and Docker",
+				"Designed and implemented CI/CD pipelines reducing deployment time by 75%",
+				"Mentored junior developers and conducted code reviews to ensure quality standards"
+			]
+		},
+		{
+			"role": "Senior Software Developer",
+			"company": "Tech Innovations Inc.",
+			"duration": "Mar 2017 - Dec 2019",
+			"description": "Developed full-stack applications for finance and healthcare industries",
+			"responsibilities": [
+				"Built real-time data processing system using Java and Kafka handling 10M+ events daily",
+				"Developed responsive frontend using React and Redux improving user engagement by 30%",
+				"Implemented automated testing strategies increasing code coverage to 85%",
+				"Optimized database queries reducing response times by 60%"
+			]
+		},
+		{
+			"role": "Software Developer",
+			"company": "Digital Solutions Ltd",
+			"duration": "Jun 2014 - Feb 2017",
+			"description": "Worked on various web and mobile applications",
+			"responsibilities": [
+				"Developed RESTful APIs using Spring Framework for mobile applications",
+				"Created frontend interfaces with React for customer-facing applications",
+				"Participated in Agile development process with bi-weekly sprints",
+				"Integrated third-party services and APIs into existing applications"
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Enterprise Content Management System",
+			"description": "A scalable system for managing enterprise documents and workflows with advanced search capabilities",
+			"technologies": ["Java", "Spring Boot", "React", "Elasticsearch", "Docker"],
+			"image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+			"link": "https://github.com/johndoe/ecms"
+		},
+		{
+			"title": "Financial Data Analytics Platform",
+			"description": "Real-time analytics platform processing millions of financial transactions with visualizations and alerts",
+			"technologies": ["Java", "Apache Kafka", "React", "D3.js", "AWS"],
+			"image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+			"link": "https://github.com/johndoe/fdap"
+		},
+		{
+			"title": "Healthcare Patient Portal",
+			"description": "Secure patient portal allowing users to access medical records, schedule appointments, and communicate with providers",
+			"technologies": ["React", "Node.js", "MongoDB", "Express", "OAuth"],
+			"image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+			"link": "https://github.com/johndoe/patient-portal"
+		},
+		{
+			"title": "DevOps Automation Suite",
+			"description": "Toolkit for automating deployment pipelines and infrastructure management across cloud platforms",
+			"technologies": ["Docker", "Kubernetes", "Terraform", "Jenkins", "Python"],
+			"image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+			"link": "https://github.com/johndoe/devops-suite"
+		}
+	],
+	"achievements": [
+		{
+			"title": "Certified Ethical Hacker (CEH)",
+			"issuer": "EC-Council",
+			"date": "2022",
+			"description": "Certification demonstrating expertise in identifying vulnerabilities and security risks"
+		},
+		{
+			"title": "Certified Scrum Master (CSM)",
+			"issuer": "Scrum Alliance",
+			"date": "2020",
+			"description": "Professional certification in Agile methodologies and Scrum framework"
+		},
+		{
+			"title": "Docker Certified Expert",
+			"issuer": "Docker Inc.",
+			"date": "2019",
+			"description": "Advanced certification in containerization and Docker technologies"
+		},
+		{
+			"title": "Excellence Award",
+			"issuer": "OpenText",
+			"date": "2021",
+			"description": "Recognized for exceptional contributions to the company's flagship product"
+		}
+	],
+	"youtube": [
+		{
+			"name": "Tech Talks with John",
+			"description": "Weekly discussions on latest technology trends and best practices in software development",
+			"url": "https://youtube.com/c/techtalksjohn",
+			"thumbnail": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
+		},
+		{
+			"name": "Code Craftsman",
+			"description": "Tutorials and coding sessions focused on Java, Spring Boot, and architectural patterns",
+			"url": "https://youtube.com/c/codecraftsman",
+			"thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+		}
+	]
 }
