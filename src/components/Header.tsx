@@ -1,42 +1,13 @@
 
-import { useEffect, useRef } from "react";
 import portfolioData from "../data/portfolio.json";
 
 const Header = () => {
   const { name, title, tagline, description, image } = portfolioData.header;
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate-fade-in");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, []);
 
   return (
     <section id="home" className="min-h-screen flex items-center pt-16">
       <div className="section-container">
-        <div 
-          ref={containerRef} 
-          className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center opacity-0"
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="order-2 lg:order-1">
             <p className="text-primary font-medium mb-2">Hello, I'm</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">

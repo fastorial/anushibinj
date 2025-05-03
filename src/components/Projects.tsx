@@ -1,5 +1,4 @@
 
-import { useRef, useEffect } from "react";
 import portfolioData from "../data/portfolio.json";
 import AnimatedSection from "./AnimatedSection";
 
@@ -26,39 +25,10 @@ interface ProjectProps {
   index: number;
 }
 
-const ProjectCard = ({ project, index }: ProjectProps) => {
-  const cardRef = useRef<HTMLDivElement>(null);
-  
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setTimeout(() => {
-              entry.target.classList.add('animate-fade-in');
-            }, index * 200);
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
-      }
-    };
-  }, [index]);
-
+const ProjectCard = ({ project }: ProjectProps) => {
   return (
     <div 
-      ref={cardRef} 
-      className="opacity-0 card-hover bg-secondary rounded-lg overflow-hidden border border-border flex flex-col"
+      className="card-hover bg-secondary rounded-lg overflow-hidden border border-border flex flex-col"
     >
       <div className="h-48 overflow-hidden">
         <img 
