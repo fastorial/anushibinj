@@ -1,5 +1,5 @@
 
-import { GitHub, Mail, Link } from "lucide-react";
+import { Github, Mail, Link } from "lucide-react";
 import portfolioData from "../data/portfolio.json";
 import AnimatedSection from "./AnimatedSection";
 
@@ -62,7 +62,7 @@ const Contact = () => {
             rel="noopener noreferrer" 
             className="card-hover bg-secondary rounded-lg p-6 border border-border flex items-center justify-center gap-3"
           >
-            <GitHub className="h-5 w-5 text-primary" />
+            <Github className="h-5 w-5 text-primary" />
             <span>GitHub</span>
           </a>
           <a 
