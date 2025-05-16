@@ -144,32 +144,18 @@
 	],
 	"projects": [
 		{
-			"title": "Enterprise Content Management System",
-			"description": "A scalable system for managing enterprise documents and workflows with advanced search capabilities",
-			"technologies": ["Java", "Spring Boot", "React", "Elasticsearch", "Docker"],
-			"image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-			"link": "https://github.com/johndoe/ecms"
+			"title": "SellEZ",
+			"description": "Your Company's Private Marketplace - Buy and sell items exclusively with your colleagues in a trusted, secure environment",
+			"technologies": ["SaaS", "React JS", "Supabase", "Tailwind CSS"],
+			"image": "https://sellez.store/img/splash.png",
+			"link": "https://sellez.store/"
 		},
 		{
-			"title": "Financial Data Analytics Platform",
-			"description": "Real-time analytics platform processing millions of financial transactions with visualizations and alerts",
-			"technologies": ["Java", "Apache Kafka", "React", "D3.js", "AWS"],
-			"image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
-			"link": "https://github.com/johndoe/fdap"
-		},
-		{
-			"title": "Healthcare Patient Portal",
-			"description": "Secure patient portal allowing users to access medical records, schedule appointments, and communicate with providers",
-			"technologies": ["React", "Node.js", "MongoDB", "Express", "OAuth"],
-			"image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-			"link": "https://github.com/johndoe/patient-portal"
-		},
-		{
-			"title": "DevOps Automation Suite",
-			"description": "Toolkit for automating deployment pipelines and infrastructure management across cloud platforms",
-			"technologies": ["Docker", "Kubernetes", "Terraform", "Jenkins", "Python"],
-			"image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-			"link": "https://github.com/johndoe/devops-suite"
+			"title": "System Design Online Course",
+			"description": "Master System Design Over a Weekend - Crush Interviews & Build Real Systems",
+			"technologies": ["System Design", "Teaching & Mentoring"],
+			"image": "https://courses.fastorial.dev/system-design/thumbnail.png",
+			"link": "https://courses.fastorial.dev/system-design/"
 		}
 	],
 	"achievements": [
@@ -200,16 +186,10 @@
 	],
 	"youtube": [
 		{
-			"name": "Tech Talks with John",
-			"description": "Weekly discussions on latest technology trends and best practices in software development",
-			"url": "https://youtube.com/c/techtalksjohn",
-			"thumbnail": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-		},
-		{
-			"name": "Code Craftsman",
-			"description": "Tutorials and coding sessions focused on Java, Spring Boot, and architectural patterns",
-			"url": "https://youtube.com/c/codecraftsman",
-			"thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+			"name": "Fastorial",
+			"description": "A tech tutorial channel focussed on giving concise and fast how-tos and knowledge",
+			"url": "https://www.youtube.com/@fastorial",
+			"thumbnail": "https://yt3.googleusercontent.com/WwzLnFaU0P-FCc5clQIDKAiW5FW40Bp4qHnRck9MeYAwZ3SH1AIWioh4znKayfN1qtquB6mjEyc=s160-c-k-c0x00ffffff-no-rj"
 		}
 	]
 }
