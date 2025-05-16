@@ -19,7 +19,15 @@
 		},
 		{
 			"category": "Frontend",
-			"items": ["ReactJS", "JavaScript", "HTML/CSS", "Tailwind CSS"]
+			"items": [
+				"ReactJS",
+				"JavaScript",
+				"HTML/CSS",
+				"Tailwind CSS",
+				"Antd",
+				"Material UI",
+				"Bootstrap"
+			]
 		},
 		{
 			"category": "DevOps",
@@ -27,7 +35,7 @@
 		},
 		{
 			"category": "Databases",
-			"items": ["MongoDB", "Redis", "PostgreSQL", "Oracle", "Microsoft SQL Server", "IBM DB2"]
+			"items": ["PostgreSQL", "Oracle", "Microsoft SQL Server", "IBM DB2", "MongoDB", "Redis"]
 		},
 		{
 			"category": "Other",
@@ -38,43 +46,99 @@
 				"Security",
 				"Testing"
 			]
+		},
+		{
+			"category": "Tools",
+			"items": [
+				"Git",
+				"Jenkins",
+				"Teamcity",
+				"Blackduck",
+				"Fortify",
+				"WebInspect",
+				"BURP",
+				"Postman",
+				"SOAP UI",
+				"Eclipse / STS IDE",
+				"VS Code"
+			]
 		}
 	],
 	"experience": [
 		{
 			"role": "Lead Software Engineer",
 			"company": "OpenText",
-			"duration": "Jan 2020 - Present",
+			"location": "Hyderabad, Telangana, India",
+			"duration": {
+				"from": "Mar 2024",
+				"to": "Present"
+			},
 			"description": "Leading a team of 8 developers creating enterprise content management solutions",
 			"responsibilities": [
-				"Architected and implemented microservices-based platform that improved scalability by 200%",
-				"Led migration from monolith to microservices using Spring Boot and Docker",
-				"Designed and implemented CI/CD pipelines reducing deployment time by 75%",
-				"Mentored junior developers and conducted code reviews to ensure quality standards"
+				"Leading a team of 8 developers",
+				"Mentoring the juniors in the team",
+				"Making architectural product decisions and changes to the product",
+				"Stakeholder & customer management",
+				"Scrum master for the team",
+				"Security, Build & Performance advocate"
 			]
 		},
 		{
-			"role": "Senior Software Developer",
-			"company": "Tech Innovations Inc.",
-			"duration": "Mar 2017 - Dec 2019",
+			"role": "Senior Software Engineer",
+			"company": "OpenText",
+			"location": "Hyderabad, Telangana, India",
+			"duration": {
+				"from": "Jan 2022",
+				"to": "Feb 2024"
+			},
 			"description": "Developed full-stack applications for finance and healthcare industries",
 			"responsibilities": [
-				"Built real-time data processing system using Java and Kafka handling 10M+ events daily",
-				"Developed responsive frontend using React and Redux improving user engagement by 30%",
-				"Implemented automated testing strategies increasing code coverage to 85%",
-				"Optimized database queries reducing response times by 60%"
+				"Designing new solutions for solving bottlenecks in the product",
+				"Created 2 new React & Spring-based internal tools to ease the work within the team",
+				"Added Teamcity integration to 2 products and actively maintaining them"
 			]
 		},
 		{
-			"role": "Software Developer",
-			"company": "Digital Solutions Ltd",
-			"duration": "Jun 2014 - Feb 2017",
-			"description": "Worked on various web and mobile applications",
+			"role": "Software Engineer",
+			"company": "OpenText",
+			"location": "Hyderabad, Telangana, India",
+			"duration": {
+				"from": "Jan 2020",
+				"to": "Dec 2021"
+			},
+			"description": "Worked on various Java J2EE applications",
 			"responsibilities": [
-				"Developed RESTful APIs using Spring Framework for mobile applications",
-				"Created frontend interfaces with React for customer-facing applications",
-				"Participated in Agile development process with bi-weekly sprints",
-				"Integrated third-party services and APIs into existing applications"
+				"Build Advocate for 3 products - Taking care of build failures and making sure that all the build environments are up and available round the clock",
+				"Buddy for newcomers - Helping new teammates get up to speed with our products"
+			]
+		},
+		{
+			"role": "Associate Software Engineer",
+			"company": "OpenText",
+			"location": "Hyderabad, Telangana, India",
+			"duration": {
+				"from": "Mar 2017",
+				"to": "Dec 2019"
+			},
+			"description": "Fast onboarding and learning the waters as a Java developer",
+			"responsibilities": [
+				"Java Developer for 3 products - Developing, fixing, and maintaining",
+				"Security Advocate for 3 products - Keeping an eye on all the Security & License vulnerabilities in all these projects. Also, motivating the Team to focus on a security-compliant code",
+				"Scrum Master for 2 products - Taking care of the Sprint, triaging issues, and making sure that no issues are missed from the backlog",
+				"VMware vCloud Admin for 3 products - Managing all the VMs and keeping an eye on the available hardware resources and notifying upper management about extra requirements so that the teams always have ample amount of development and testing ground"
+			]
+		},
+		{
+			"role": "Engineering Intern",
+			"company": "OpenText",
+			"location": "Hyderabad, Telangana, India",
+			"duration": {
+				"from": "Oct 2016",
+				"to": "Mar 2017"
+			},
+			"description": "Entering the software engineering industry",
+			"responsibilities": [
+				"Product Integration - Worked on adding support for a new Database on an existing product"
 			]
 		}
 	],
