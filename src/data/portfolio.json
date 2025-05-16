@@ -156,6 +156,13 @@
 			"technologies": ["System Design", "Teaching & Mentoring"],
 			"image": "https://courses.fastorial.dev/system-design/thumbnail.png",
 			"link": "https://courses.fastorial.dev/system-design/"
+		},
+		{
+			"title": "room-inator",
+			"description": "Lost your way in your office? Find meeting rooms easily with room-inator",
+			"technologies": ["Java", "Spring Boot", "React JS", "Antd"],
+			"image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+			"link": "https://github.com/anushibin007/room-inator"
 		}
 	],
 	"achievements": [
